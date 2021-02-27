@@ -1,0 +1,3 @@
+
+class SiameseDataset(object):
+    pass
