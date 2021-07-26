@@ -1,8 +1,14 @@
-# dl-siamese-network
-A Siamese Neural Network playground to train a model for face recognition on Android mobile.
+# dl-oneshot-[object-detection](https://machinethink.net/blog/object-detection/)-network
+A Neural Network playground to train a model for object detection on Android mobile.
+
+- [MobileNets](https://paperswithcode.com/paper/mobilenets-efficient-convolutional-neural)
+- [Searching for MobileNetV3](https://paperswithcode.com/paper/searching-for-mobilenetv3)
 
 ## Paper
 - [Deep Face Recognition: A Survey. 2020](https://arxiv.org/abs/1804.06655) [pdf](paper/1804.06655.pdf)
+- [Vegetation Classification Tasks](https://paperswithcode.com/paper/one-shot-learning-with-triplet-loss-for)
+- [Differential Morphed Face Detection Using Deep Siamese Networks](https://paperswithcode.com/paper/differential-morphed-face-detection-using)
+
 
 ## Dataset
 - http://www.iapr-tc11.org/mediawiki/index.php/ICDAR_2011_Signature_Verification_Competition_(SigComp2011)
@@ -39,16 +45,20 @@ pip install -r requirements.txt
 - [Colab Notebook](https://colab.research.google.com/drive/1FsixLon5Zz3_rFA0xIHzc8Tvnnw8FLr8)
 - [Android + DL](https://medium.com/predict/face-recognition-from-scratch-using-siamese-networks-and-tensorflow-df03e32f8cd0)
 - [Oneshot Siamese Pytorch](https://towardsdatascience.com/building-a-one-shot-learning-network-with-pytorch-d1c3a5fafa4a)
+- Depth Wise Conv
+  - https://towardsdatascience.com/a-basic-introduction-to-separable-convolutions-b99ec3102728
+  - https://eli.thegreenplace.net/2018/depthwise-separable-convolutions-for-machine-learning/
 
 ## Github
 - MobileFaceNets: Efficient CNNs for Accurate Real-Time Face Verification on Mobile Devices
-- **Tensorflow**
-  - [TF](https://github.com/sirius-ai/MobileFaceNet_TF)
-  - [Android TF Lite](https://github.com/estebanuri/face_recognition)
-  - [FaceNet Keras](https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/)  
-  - [Blog](https://medium.com/@estebanuri/real-time-face-recognition-with-android-tensorflow-lite-14e9c6cc53a5)
-  - [2.FaceRecognition_With_FaceNet_Android](https://github.com/shubham0204/FaceRecognition_With_FaceNet_Android) [Blog](https://towardsdatascience.com/using-facenet-for-on-device-face-recognition-with-android-f84e36e19761)
-  
-- **PyTorch**
-  - [Paper](https://arxiv.org/abs/1804.07573)
-  - [Official Git](https://github.com/foamliu/MobileFaceNet)
+  - **Tensorflow**
+    - [TF](https://github.com/sirius-ai/MobileFaceNet_TF)
+    - [Android TF Lite](https://github.com/estebanuri/face_recognition)
+    - [FaceNet Keras](https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/)  
+    - [Blog](https://medium.com/@estebanuri/real-time-face-recognition-with-android-tensorflow-lite-14e9c6cc53a5)
+    - [2.FaceRecognition_With_FaceNet_Android](https://github.com/shubham0204/FaceRecognition_With_FaceNet_Android) [Blog](https://towardsdatascience.com/using-facenet-for-on-device-face-recognition-with-android-f84e36e19761)
+    
+  - **PyTorch**
+    - [Paper](https://arxiv.org/abs/1804.07573)
+    - [Official Git](https://github.com/foamliu/MobileFaceNet)
+-[Image Deduplicator](https://github.com/idealo/imagededup)  
